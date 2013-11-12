@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Thank you for using the OXID eShop!
 
 This software is written in PHP + MySQL and runs platform independent on Apache webservers.
@@ -21,3 +22,6 @@ http://forum.oxid-esales.com/?langid=1
 Have fun with your OXID eShop!
 
 The OXID team
+=======
+Hello World !
+>>>>>>> a6194de3c5a546952d1b8cf4a1168c703d61f6c4
