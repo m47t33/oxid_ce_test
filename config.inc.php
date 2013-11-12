@@ -27,11 +27,11 @@
         $this->dbUser = 'root'; // database user name
         $this->dbPwd = ''; // database user password
         $this->dbType = 'mysql';
-        $this->sShopURL = 'http://localhost/oxid'; // eShop base url, required
+        $this->sShopURL = 'http://localhost/oxid_ce_test'; // eShop base url, required
         $this->sSSLShopURL  = null;            // eShop SSL url, optional
         $this->sAdminSSLURL = null;            // eShop Admin SSL url, optional
-        $this->sShopDir = 'C:/Program Files (x86)/Zend/Apache2/htdocs/oxid';
-        $this->sCompileDir = 'C:/Program Files (x86)/Zend/Apache2/htdocs/oxid/tmp';
+        $this->sShopDir = 'C:/Program Files (x86)/Zend/Apache2/htdocs/oxid_ce_test';
+        $this->sCompileDir = 'C:/Program Files (x86)/Zend/Apache2/htdocs/oxid_ce_test/tmp';
 
     // UTF-8 mode in shop 0 - off, 1 - on
     $this->iUtfMode = 1;
@@ -43,9 +43,9 @@
     date_default_timezone_set('Europe/Berlin');
 
     // Search engine friendly URL processor
-    // After changing this value, you should rename oxid.php file as well
+    // After changing this value, you should rename oxid_ce_test.php file as well
     // Always leave .php extension here unless you know what you are doing
-    $this->sOXIDPHP = "oxid.php";
+    $this->sOXIDPHP = "oxid_ce_test.php";
 
     //  enable debug mode for template development or bugfixing
     // -1 = Logger Messages internal use only
